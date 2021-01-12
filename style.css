@@ -1,6 +1,6 @@
 body{
     background-color: rosybrown;
-    background-image:url("/img/bcg.jpg");
+    background-image:url("img/bcg.jpg");
     font-family:  'Comfortaa', cursive;
     text-align: justify;
     background-size:cover;
