@@ -1,0 +1,82 @@
+body{
+    background-color: rosybrown;
+    background-image:url("/img/bcg.jpg");
+    font-family:  'Comfortaa', cursive;
+    text-align: justify;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: rgb(123, 12, 250);
+   
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(43, 43, 224);
+  
+}
+h2{
+    margin-bottom: 25px;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(43, 43, 224);
+}
+h3 img{
+    box-shadow: 15px -20px blue;
+    border: 1px medium mediumpurple;
+    border-radius: 50%;
+    position: relative;
+    left: 8%;
+    animation: pic 2s linear 2 1s alternate;
+    
+}
+hr{
+    background-color: rgb(43, 43, 224);
+    height: 3px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+a{
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 18%; 
+    color:rgb(43, 43, 224); 
+    border: mintcream 2px solid;
+    background: rgb(114, 250, 239);
+    border-radius: 15%;
+}
+a:hover{ font-size: xx-large;}
+a:visited{color:  rgb(43, 43, 224);}
+a:active{ color: darkorchid;}
+
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    justify-content: center;
+    font-size: medium;
+}
+#personal{
+    font-family: 'Anton', sans-serif;
+    color: rgb(43, 43, 224);
+    font-size: medium;
+    
+}
+
+.resume b{
+    width: 100vw;
+    height: 100vh;
+    color: rgb(166, 80, 247);
+    
+    
+}
+@keyframes pic{
+    0%{ left: 8%;
+        transform: rotate();}
+    100%{left: 85%;
+    transform: rotate(180deg);}
+}
